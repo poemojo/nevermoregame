@@ -1,0 +1,10 @@
+virtual inline const uint32_t id() const
+{ return (uint32_t)_id; }
+virtual inline const uint16_t classCode() const
+{ return CLASSCODE(); }
+virtual inline const uint16_t category() const
+{ return CATEGORY(); }
+virtual inline const STRING catName() const
+{ return CatName(); }
+virtual inline const uint32_t classHash() const
+{ return CLASSHASH(); }

@@ -1,0 +1,7 @@
+typedef AutoIncrementID16C<Category> ClassID;
+
+static inline const uint16_t CATEGORY()  { return (uint16_t)Category; }
+static inline const STRING CatName() { return CategoryLookup::Lookup(Category); }
+static inline const uint16_t CLASSCODE() { return (uint16_t)Class_Code; }
+static inline const uint32_t CLASSHASH()
+{ return ((uint32_t)(((uint32_t)Category)<<16)|CLASSCODE());}
