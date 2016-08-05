@@ -1,0 +1,170 @@
+﻿Build started 7/25/2016 11:22:43 AM.
+     1>Project "I:\tyrant\projects\gamedev\NMEng\NevermoreEngine\NMEngineLib\NMEngineLib.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         K:\Program Files -x86-\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt utils\rng\rdie.cpp utils\string\fixstr.cpp
+         fixstr.cpp
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(43): error C2065: 'rm_all_t' : undeclared identifier
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(43): error C2226: syntax error : unexpected type 'T'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(43): error C2976: 'std::is_arithmetic' : too few template arguments
+                 k:\program files -x86-\microsoft visual studio 12.0\vc\include\type_traits(448) : see declaration of 'std::is_arithmetic'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(43): error C2988: unrecognizable template declaration/definition
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(43): error C2059: syntax error : '>'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(46): error C2631: 'is_integral_ext' : a class or enum cannot be defined in an alias template
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(46): error C2065: 'rm_all_t' : undeclared identifier
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(46): error C2974: 'std::_Is_integral' : invalid template argument for '_Ty', type expected
+                 k:\program files -x86-\microsoft visual studio 12.0\vc\include\xtr1common(166) : see declaration of 'std::_Is_integral'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(46): error C2143: syntax error : missing ';' before '{'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(46): error C2447: '{' : missing function header (old-style formal list?)
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(63): error C2766: explicit specialization; '_Is_Signed<int16_t>' has already been defined
+                 i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(55) : see previous definition of '_Is_Signed<short>'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(65): error C2766: explicit specialization; '_Is_Signed<int32_t>' has already been defined
+                 i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(57) : see previous definition of '_Is_Signed<int>'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(69): error C2766: explicit specialization; '_Is_Signed<int64_t>' has already been defined
+                 i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(59) : see previous definition of '_Is_Signed<__int64>'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(72): error C2065: 'rm_cv_t' : undeclared identifier
+                 i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(72) : see reference to class template instantiation 'is_signed<T>' being compiled
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(72): error C2974: '_Is_Signed' : invalid template argument for '_Ty', type expected
+                 i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(50) : see declaration of '_Is_Signed'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(72): error C2955: '_Is_Signed' : use of class template requires template argument list
+                 i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(50) : see declaration of '_Is_Signed'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(72): error C2143: syntax error : missing ',' before '>'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(74): error C2065: 'rm_all_t' : undeclared identifier
+                 i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(74) : see reference to class template instantiation 'is_signed_ext<T>' being compiled
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(74): error C2974: '_Is_Signed' : invalid template argument for '_Ty', type expected
+                 i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(50) : see declaration of '_Is_Signed'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(74): error C2955: '_Is_Signed' : use of class template requires template argument list
+                 i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(50) : see declaration of '_Is_Signed'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(74): error C2143: syntax error : missing ',' before '>'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(90): error C2766: explicit specialization; '_Is_Unsigned<uint8_t>' has already been defined
+                 i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(82) : see previous definition of '_Is_Unsigned<unsigned char>'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(92): error C2766: explicit specialization; '_Is_Unsigned<uint16_t>' has already been defined
+                 i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(84) : see previous definition of '_Is_Unsigned<unsigned short>'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(94): error C2766: explicit specialization; '_Is_Unsigned<uint32_t>' has already been defined
+                 i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(86) : see previous definition of '_Is_Unsigned<unsigned int>'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(98): error C2766: explicit specialization; '_Is_Unsigned<uint64_t>' has already been defined
+                 i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(88) : see previous definition of '_Is_Unsigned<unsigned __int64>'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(101): error C2065: 'rm_cv_t' : undeclared identifier
+                 i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(101) : see reference to class template instantiation 'is_unsigned<T>' being compiled
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(101): error C2974: '_Is_Unsigned' : invalid template argument for '_Ty', type expected
+                 i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(79) : see declaration of '_Is_Unsigned'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(101): error C2955: '_Is_Unsigned' : use of class template requires template argument list
+                 i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(79) : see declaration of '_Is_Unsigned'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(101): error C2143: syntax error : missing ',' before '>'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(103): error C2065: 'rm_all_t' : undeclared identifier
+                 i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(103) : see reference to class template instantiation 'is_unsigned_ext<T>' being compiled
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(103): error C2974: '_Is_Unsigned' : invalid template argument for '_Ty', type expected
+                 i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(79) : see declaration of '_Is_Unsigned'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(103): error C2955: '_Is_Unsigned' : use of class template requires template argument list
+                 i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(79) : see declaration of '_Is_Unsigned'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(103): error C2143: syntax error : missing ',' before '>'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(109): error C2065: 'is_integral_ext' : undeclared identifier
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(109): error C2226: syntax error : unexpected type 'T'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(109): error C2510: 'enable_if_t' : left of '::' must be a class/struct/union
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(109): error C2061: syntax error : identifier 'value'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(127): error C2065: 'is_numeric_ext' : undeclared identifier
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(127): error C2226: syntax error : unexpected type 'T'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(127): error C2510: 'enable_if_t' : left of '::' must be a class/struct/union
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(127): error C2061: syntax error : identifier 'value'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common.h(215): error C2756: '_Cmp' : default template arguments not allowed on a partial specialization
+                 i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common.h(213) : see declaration of '_Cmp'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common.h(215): error C2756: '_Alc' : default template arguments not allowed on a partial specialization
+                 i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common.h(214) : see declaration of '_Alc'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common.h(224): error C2756: '_Hash' : default template arguments not allowed on a partial specialization
+                 i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common.h(221) : see declaration of '_Hash'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common.h(224): error C2756: '_Pred' : default template arguments not allowed on a partial specialization
+                 i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common.h(222) : see declaration of '_Pred'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common.h(224): error C2756: '_Allc' : default template arguments not allowed on a partial specialization
+                 i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common.h(223) : see declaration of '_Allc'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common.h(249): warning C4346: 'is_iterator<T>::value' : dependent name is not a type
+                 prefix with 'typename' to indicate a type
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common.h(249): error C2988: unrecognizable template declaration/definition
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common.h(249): error C2059: syntax error : ''template<''
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common.h(250): error C2631: 'is_map' : a class or enum cannot be defined in an alias template
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common.h(250): error C2143: syntax error : missing ';' before '{'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common.h(250): error C2447: '{' : missing function header (old-style formal list?)
+         rdie.cpp
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(43): error C2065: 'rm_all_t' : undeclared identifier
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(43): error C2226: syntax error : unexpected type 'T'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(43): error C2976: 'std::is_arithmetic' : too few template arguments
+                 k:\program files -x86-\microsoft visual studio 12.0\vc\include\type_traits(448) : see declaration of 'std::is_arithmetic'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(43): error C2988: unrecognizable template declaration/definition
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(43): error C2059: syntax error : '>'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(46): error C2631: 'is_integral_ext' : a class or enum cannot be defined in an alias template
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(46): error C2065: 'rm_all_t' : undeclared identifier
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(46): error C2974: 'std::_Is_integral' : invalid template argument for '_Ty', type expected
+                 k:\program files -x86-\microsoft visual studio 12.0\vc\include\xtr1common(166) : see declaration of 'std::_Is_integral'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(46): error C2143: syntax error : missing ';' before '{'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(46): error C2447: '{' : missing function header (old-style formal list?)
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(63): error C2766: explicit specialization; '_Is_Signed<int16_t>' has already been defined
+                 i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(55) : see previous definition of '_Is_Signed<short>'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(65): error C2766: explicit specialization; '_Is_Signed<int32_t>' has already been defined
+                 i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(57) : see previous definition of '_Is_Signed<int>'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(69): error C2766: explicit specialization; '_Is_Signed<int64_t>' has already been defined
+                 i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(59) : see previous definition of '_Is_Signed<__int64>'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(72): error C2065: 'rm_cv_t' : undeclared identifier
+                 i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(72) : see reference to class template instantiation 'is_signed<T>' being compiled
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(72): error C2974: '_Is_Signed' : invalid template argument for '_Ty', type expected
+                 i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(50) : see declaration of '_Is_Signed'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(72): error C2955: '_Is_Signed' : use of class template requires template argument list
+                 i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(50) : see declaration of '_Is_Signed'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(72): error C2143: syntax error : missing ',' before '>'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(74): error C2065: 'rm_all_t' : undeclared identifier
+                 i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(74) : see reference to class template instantiation 'is_signed_ext<T>' being compiled
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(74): error C2974: '_Is_Signed' : invalid template argument for '_Ty', type expected
+                 i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(50) : see declaration of '_Is_Signed'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(74): error C2955: '_Is_Signed' : use of class template requires template argument list
+                 i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(50) : see declaration of '_Is_Signed'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(74): error C2143: syntax error : missing ',' before '>'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(90): error C2766: explicit specialization; '_Is_Unsigned<uint8_t>' has already been defined
+                 i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(82) : see previous definition of '_Is_Unsigned<unsigned char>'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(92): error C2766: explicit specialization; '_Is_Unsigned<uint16_t>' has already been defined
+                 i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(84) : see previous definition of '_Is_Unsigned<unsigned short>'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(94): error C2766: explicit specialization; '_Is_Unsigned<uint32_t>' has already been defined
+                 i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(86) : see previous definition of '_Is_Unsigned<unsigned int>'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(98): error C2766: explicit specialization; '_Is_Unsigned<uint64_t>' has already been defined
+                 i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(88) : see previous definition of '_Is_Unsigned<unsigned __int64>'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(101): error C2065: 'rm_cv_t' : undeclared identifier
+                 i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(101) : see reference to class template instantiation 'is_unsigned<T>' being compiled
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(101): error C2974: '_Is_Unsigned' : invalid template argument for '_Ty', type expected
+                 i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(79) : see declaration of '_Is_Unsigned'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(101): error C2955: '_Is_Unsigned' : use of class template requires template argument list
+                 i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(79) : see declaration of '_Is_Unsigned'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(101): error C2143: syntax error : missing ',' before '>'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(103): error C2065: 'rm_all_t' : undeclared identifier
+                 i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(103) : see reference to class template instantiation 'is_unsigned_ext<T>' being compiled
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(103): error C2974: '_Is_Unsigned' : invalid template argument for '_Ty', type expected
+                 i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(79) : see declaration of '_Is_Unsigned'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(103): error C2955: '_Is_Unsigned' : use of class template requires template argument list
+                 i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(79) : see declaration of '_Is_Unsigned'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(103): error C2143: syntax error : missing ',' before '>'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(109): error C2065: 'is_integral_ext' : undeclared identifier
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(109): error C2226: syntax error : unexpected type 'T'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(109): error C2510: 'enable_if_t' : left of '::' must be a class/struct/union
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(109): error C2061: syntax error : identifier 'value'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(127): error C2065: 'is_numeric_ext' : undeclared identifier
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(127): error C2226: syntax error : unexpected type 'T'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(127): error C2510: 'enable_if_t' : left of '::' must be a class/struct/union
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common\numeric.h(127): error C2061: syntax error : identifier 'value'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common.h(215): error C2756: '_Cmp' : default template arguments not allowed on a partial specialization
+                 i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common.h(213) : see declaration of '_Cmp'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common.h(215): error C2756: '_Alc' : default template arguments not allowed on a partial specialization
+                 i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common.h(214) : see declaration of '_Alc'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common.h(224): error C2756: '_Hash' : default template arguments not allowed on a partial specialization
+                 i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common.h(221) : see declaration of '_Hash'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common.h(224): error C2756: '_Pred' : default template arguments not allowed on a partial specialization
+                 i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common.h(222) : see declaration of '_Pred'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common.h(224): error C2756: '_Allc' : default template arguments not allowed on a partial specialization
+                 i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common.h(223) : see declaration of '_Allc'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common.h(249): warning C4346: 'is_iterator<T>::value' : dependent name is not a type
+                 prefix with 'typename' to indicate a type
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common.h(249): error C2988: unrecognizable template declaration/definition
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common.h(249): error C2059: syntax error : ''template<''
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common.h(250): error C2631: 'is_map' : a class or enum cannot be defined in an alias template
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common.h(250): error C2143: syntax error : missing ';' before '{'
+     1>i:\tyrant\projects\gamedev\nmeng\nevermoreengine\nmenginelib\common.h(250): error C2447: '{' : missing function header (old-style formal list?)
+         Generating Code...
+     1>Done Building Project "I:\tyrant\projects\gamedev\NMEng\NevermoreEngine\NMEngineLib\NMEngineLib.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.71
