@@ -87,7 +87,7 @@ namespace nevermore
 		}
 
 		inline bool operator== (const uint32_t &test)
-		{ return (data == test); }
+		{ return (data.value == test); }
 		inline bool operator== (const rgbCode_t &test)
 		{ return (data == test); }
 		inline bool operator== (const ColorType &rhs)
